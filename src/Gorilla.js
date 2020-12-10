@@ -1,11 +1,11 @@
 class Gorilla {
-    constructor (name) {
-        this.name = name
-    }
+  constructor (name) {
+    this.name = name
+  }
 
-    speak(){
-      return `${this.name} got a bad feeling about this...`
-    }
+  speak() {
+    return `${this.name} got a bad feeling about this...`
+  }
 }
 
 export default Gorilla

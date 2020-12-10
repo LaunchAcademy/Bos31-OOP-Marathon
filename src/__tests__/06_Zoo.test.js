@@ -31,7 +31,7 @@ describe('A Zoo', () => {
   })
 
   describe('#addAnimal', () => {
-    it.only('should add an animal to the first open cage', () => {
+    it('should add an animal to the first open cage', () => {
       let newAnimal = new Fox('Kit')
       zoo.addAnimal(newAnimal)
 
